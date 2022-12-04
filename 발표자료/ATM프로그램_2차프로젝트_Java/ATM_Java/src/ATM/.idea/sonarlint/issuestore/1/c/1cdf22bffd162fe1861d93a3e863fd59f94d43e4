@@ -1,0 +1,14 @@
+
+R
+java:S1854"7Remove this useless assignment to local variable "dbc".(ÊóíÀúÿÿÿÿ
+‹
+java:S1130"nRemove the declaration of thrown exception 'java.sql.SQLException', as it cannot be thrown from method's body.(Á¯¦ş8Ùğ‚Ùş/
+C
+java:S1481"(Remove this unused "dbc" local variable.(ÊóíÀúÿÿÿÿ
+<	java:S131 ""Add a default case to this switch.(—µË‡øÿÿÿÿ
+S	java:S106?"9Replace this use of System.out or System.err by a logger.(Ùİ–±úÿÿÿÿ
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(ƒ¦á
+S	java:S106J"9Replace this use of System.out or System.err by a logger.(ë¡˜ûÿÿÿÿ
+M	java:S106K"9Replace this use of System.out or System.err by a logger.(–»ım
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(šŒÂ´üÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š‘¨µúÿÿÿÿ

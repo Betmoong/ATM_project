@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Rocky's ATM</title>
+
+    <meta property="og:title" content="로키뱅크"/>
+    <meta property="og:description" content="환영합니다! 로키뱅크 ATM 서비스웹입니다!"/>
+    <meta property="og:image" content="{{ url_for('static', filename='ogimage.png') }}"/>
+
+    <link rel="icon" type="image/png" href="imgs/btc-brands.png"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        /* Global */
+        :root {
+            /* Color */
+            --color-white: #ffffff;
+            --color-light-white: #eeeeee;
+            --color-dark-white: #bdbdbd;
+            --color-pink: #fe918d;
+            --color-dark-pink: #ff6863;
+            --color-dark-grey: #4d4d4d;
+            --color-grey: #616161;
+            --color-light-grey: #7c7979;
+            --color-blue: #73aace;
+            --color-yellow: #fff7d1;
+            --color-orange: #feb546;
+            --color-green: #a5d6a7;
+            --color-black: #000000;
+
+            /* Font size */
+            --font-large: 48px;
+            --font-medium: 28px;
+            --font-regular: 23px;
+            --font-small: 16px;
+            --font-micro: 14px;
+
+            /* Font weight */
+            --weight-bold: 700;
+            --weight-semi-bold: 600;
+            --weight-regular: 400;
+
+            /* Size */
+            --size-border-radius: 4px;
+
+            /* Annimation */
+            --animation-duration: 300ms;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        .navbar {
+            background-color: var(--color-green);
+            color: var(--color-white);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 25px;
+        }
+
+        .nav_R {
+            color: var(--color-pink);
+            font-size: var(--font-large);
+        }
+
+        .nav_bank {
+            font-size: var(--font-medium);
+            font-weight: var(--weight-regular);
+        }
+
+        .nav_right {
+            font-size: var(--font-medium);
+            font-weight: var(--weight-regular);
+        }
+
+        .nav_left {
+            cursor: pointer;
+        }
+
+        #screen {
+            width: 800px;
+            height: 600px;
+            border: 2px solid black;
+            display: flex;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        .screen_categories {
+            margin: auto;
+            width: 650px;
+            height: 500px;
+        }
+
+        .screen_btn_all {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .screen_btn_left {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .screen_btn_right {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .screen_btn {
+            border: 1px solid var(--color-black);
+            background-color: var(--color-white);
+            border-radius: 5%;
+            font-size: var(--font-regular);
+            margin: 15px 0;
+            width: 150px;
+            height: 90px;
+        }
+
+        .screen_btn:hover {
+            background-color: var(--color-green);
+            color: var(--color-white);
+        }
+
+        #topText {
+            display: flex;
+            justify-content: center;
+            margin-top: 40px;
+            font-size: var(--font-medium);
+        }
+
+        .buttonT {
+            display: block;
+            position: relative;
+            float: left;
+            width: 120px;
+            padding: 0;
+            margin: 10px 20px 10px 0;
+            font-weight: 600;
+            text-align: center;
+            line-height: 50px;
+            color: #FFF;
+            border-radius: 5px;
+            transition: all 0.2s;
+            border: none;
+            margin-left: 143px;
+        }
+
+        .btnBlueGreen {
+            background: #00AE68;
+        }
+
+        .btnBlueGreen.btnPush {
+            box-shadow: 0px 5px 0px 0px #007144;
+        }
+
+        .btnPush:hover {
+            margin-top: 15px;
+            margin-bottom: 5px;
+            cursor: pointer;
+        }
+
+        .btnBlueGreen.btnPush:hover {
+            box-shadow: 0px 0px 0px 0px #007144;
+        }
+
+        .buttonT:focus, .buttonT:active {
+            outline: none !important;
+        }
+
+    </style>
+
+</head>
+<body>
+<header>
+    <div class="navbar">
+        <div class="nav_left animate__animated animate__fadeInLeft" onclick="btnCancel()">
+            <span class="nav_R">R</span><span class="nav_bank">bank</span>
+        </div>
+        <button type="button" class="buttonT btnPush btnBlueGreen" onclick="viewAccInfo()">빠른 계좌 정보</button>
+        <div class="nav_right">현금 자동 입출금기</div>
+    </div>
+</header>
+<div id="topText">거래선택</div>
+
+<div id="screen">
+    <div class="screen_categories">
+        <div class="screen_btn_all">
+            <div class="screen_btn_left">
+                <button class="screen_btn" onclick="deposit()" id="button1">입 &emsp; 금</button>
+                <button class="screen_btn" onclick="withdraw()" id="button2">예금출금</button>
+                <button class="screen_btn" onclick="remit()" id="button3">계좌이체</button>
+                <button class="screen_btn" onclick="balanceCheck()" id="button4">예금조회</button>
+            </div>
+            <div class="screen_btn_right">
+                <button class="screen_btn" onclick="createAccount()" id="button5">계좌생성</button>
+                <button class="screen_btn" onclick="changePassword()" id="button6">비밀번호<br/>변 &emsp; 경</button>
+                <button class="screen_btn" onclick="administrator()" id="button7">관리자</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JS 연결 -->
+<script type="text/javascript" src="../static/main.js"></script>
+</body>
+</html>

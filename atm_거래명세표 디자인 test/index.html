@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test</title>
+
+    <style>
+      :root {
+        /* Color */
+        --color-white: #ffffff;
+        --color-light-white: #eeeeee;
+        --color-dark-white: #bdbdbd;
+        --color-pink: #fe918d;
+        --color-dark-pink: #ff6863;
+        --color-dark-grey: #4d4d4d;
+        --color-grey: #616161;
+        --color-light-grey: #7c7979;
+        --color-blue: #73aace;
+        --color-yellow: #fff7d1;
+        --color-orange: #feb546;
+        --color-green: #a5d6a7;
+        --color-black: #000000;
+
+        /* Font size */
+        --font-large: 48px;
+        --font-medium: 28px;
+        --font-regular: 23px;
+        --font-small: 16px;
+        --font-micro: 14px;
+
+        /* Font weight */
+        --weight-bold: 700;
+        --weight-semi-bold: 600;
+        --weight-regular: 400;
+
+        /* Size */
+        --size-border-radius: 4px;
+
+        /* Annimation */
+        --animation-duration: 300ms;
+      }
+      #statementOfAccount {
+        border: 1px solid black;
+        width: 550px;
+        padding: 10px;
+      }
+
+      #container1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav_R {
+        color: var(--color-pink);
+        font-size: var(--font-large);
+      }
+
+      .nav_bank {
+        font-size: var(--font-medium);
+        font-weight: var(--weight-regular);
+      }
+
+      hr {
+        border-top: 2px dotted #bbb;
+      }
+
+      .comeSum {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+      }
+
+      .right_box {
+        display: flex;
+        flex-direction: row-reverse;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="statementOfAccount">
+      <div id="container1">
+        <div id="Rbank">
+          <span class="nav_R">R</span><span class="nav_bank">bank</span>
+        </div>
+        거래명세표
+      </div>
+      [예금입금]
+      <hr />
+      <div class="comeSum">
+        <span>요청금액</span>
+        <span>20,000원</span>
+      </div>
+      <div>처리결과: 정상처리</div>
+      <div class="right_box">거래 후 잔액: 30000원</div>
+      <div class="right_box">수수료: 0원</div>
+      <hr />
+      <div>거래일시: 2022.04.05 22:18</div>
+      <div>계좌번호: 국민 74834203</div>
+      <br />
+      <br />
+      <p>정상 처리되었습니다. 감사합니다.</p>
+    </div>
+  </body>
+</html>

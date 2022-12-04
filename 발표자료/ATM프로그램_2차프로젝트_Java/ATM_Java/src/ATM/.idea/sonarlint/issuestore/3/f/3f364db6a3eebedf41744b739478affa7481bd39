@@ -1,0 +1,64 @@
+
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(ÿÁÂïÿÿÿÿÿ
+1
+java:S3626X"Remove this redundant jump.(ûÁİ…
+2
+java:S3626œ"Remove this redundant jump.(ûÁİ…
+2
+java:S3626¸"Remove this redundant jump.(ûÁİ…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(‹È…’şÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬‘‡¾ıÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²Œµ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(¢À¡›
+S	java:S106 "9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106$"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106("9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106,"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S1060"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(‚šèÊıÿÿÿÿ
+N	java:S1067"9Replace this use of System.out or System.err by a logger.(›ÁåŸ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(«ªÒµ
+M	java:S106F"9Replace this use of System.out or System.err by a logger.(öŞµ
+S	java:S106G"9Replace this use of System.out or System.err by a logger.(‡Šşßÿÿÿÿÿ
+t
+java:S2142L"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+N	java:S106J"9Replace this use of System.out or System.err by a logger.(ƒ¦á
+S	java:S106M"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106T"9Replace this use of System.out or System.err by a logger.(Ëƒœıùÿÿÿÿ
+t
+java:S2142Y"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+N	java:S106W"9Replace this use of System.out or System.err by a logger.(ƒ¦á
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+N	java:S106_"9Replace this use of System.out or System.err by a logger.(¦ÎÁ
+N	java:S106c"9Replace this use of System.out or System.err by a logger.(«ªÒµ
+S	java:S106i"9Replace this use of System.out or System.err by a logger.(ëà˜Òùÿÿÿÿ
+N	java:S106l"9Replace this use of System.out or System.err by a logger.(¼«í†
+M	java:S106m"9Replace this use of System.out or System.err by a logger.(˜³¸
+N	java:S106n"9Replace this use of System.out or System.err by a logger.(²İ¨¦
+S	java:S106o"9Replace this use of System.out or System.err by a logger.(ß±Éïúÿÿÿÿ
+S	java:S106p"9Replace this use of System.out or System.err by a logger.(ñ¢¦Ñøÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(ûôÃ
+u
+java:S2142‡"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+T	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(”Õ±æùÿÿÿÿ
+u
+java:S2142"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+T	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T	java:S106¢"9Replace this use of System.out or System.err by a logger.(–’§½üÿÿÿÿ
+O	java:S106·"9Replace this use of System.out or System.err by a logger.(ëŸ¿›
+W
+java:S1128":Remove this unused import 'javax.swing.plaf.nimbus.State'.(ğÒ´Ò8ô™óÈÿ/
+Y
+java:S1128"7Remove this unused import 'javax.xml.transform.Result'.(âÓ¸ûÿÿÿÿ8ô™óÈÿ/
+~
+java:S1192 "cDefine a constant instead of duplicating this literal "] ì€í–‰ì„ ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤." 5 times.(ê¥öıÿÿÿÿ
+Q
+java:S1141…"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141š"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+e	java:S117x"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïá¢d
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š‘¨µúÿÿÿÿ
+j
+java:S2095|"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ı²Ÿ úÿÿÿÿ

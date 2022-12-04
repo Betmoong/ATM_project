@@ -1,0 +1,33 @@
+
+l	java:S116	"WRename this field "my_bank_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…åáÖ
+m	java:S116
+"YRename this field "your_bank_name" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¸Ÿ¹
+o	java:S116"URename this field "acc_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ý„Çìøÿÿÿÿ
+q	java:S116"WRename this field "acc_password" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(„ÙžØûÿÿÿÿ
+n	java:S116"TRename this field "now_error" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(×¡·¤ûÿÿÿÿ
+m
+java:S1104"RMake button a static final constant or non-public and provide accessors if needed.(¦ÛÛ÷üÿÿÿÿ
+n
+java:S1104	"XMake my_bank_name a static final constant or non-public and provide accessors if needed.(…åáÖ
+o
+java:S1104
+"ZMake your_bank_name a static final constant or non-public and provide accessors if needed.(¸Ÿ¹
+q
+java:S1104"VMake acc_number a static final constant or non-public and provide accessors if needed.(Ý„Çìøÿÿÿÿ
+m
+java:S1104"RMake number a static final constant or non-public and provide accessors if needed.(ÞÄù×ùÿÿÿÿ
+s
+java:S1104"XMake acc_password a static final constant or non-public and provide accessors if needed.(„ÙžØûÿÿÿÿ
+l
+java:S1104"QMake money a static final constant or non-public and provide accessors if needed.(ÿùš¿ùÿÿÿÿ
+f
+java:S1104"PMake okay a static final constant or non-public and provide accessors if needed.(®Þ²“
+f
+java:S1104"PMake name a static final constant or non-public and provide accessors if needed.(ÄÞë—
+n
+java:S1104"SMake balance a static final constant or non-public and provide accessors if needed.(—ä½ÿùÿÿÿÿ
+l
+java:S1104"QMake check a static final constant or non-public and provide accessors if needed.(½î„Òýÿÿÿÿ
+p
+java:S1104"UMake now_error a static final constant or non-public and provide accessors if needed.(×¡·¤ûÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š‘¨µúÿÿÿÿ

@@ -1,0 +1,55 @@
+
+h	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ûå÷Çúÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(Ûå÷Çúÿÿÿÿ
+1
+java:S3626^"Remove this redundant jump.(ûÁİ…
+1
+java:S3626b"Remove this redundant jump.(ûÁİ…
+1
+java:S3626}"Remove this redundant jump.(ûÁİ…
+2
+java:S3626ˆ"Remove this redundant jump.(ûÁİ…
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Šø§×øÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¬‘‡¾ıÿÿÿÿ
+M	java:S106"9Replace this use of System.out or System.err by a logger.(²Œµ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¿šºˆøÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106""9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106&"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(ê¥öıÿÿÿÿ
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(”ô¾è
+3
+java:S21192"Save and re-use this "Random".(¼İÅf
+S	java:S1065"9Replace this use of System.out or System.err by a logger.(äû¸úşÿÿÿÿ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(…Ö£¿øÿÿÿÿ
+N	java:S1069"9Replace this use of System.out or System.err by a logger.(–œüé
+N	java:S106="9Replace this use of System.out or System.err by a logger.(«ªÒµ
+N	java:S106B"9Replace this use of System.out or System.err by a logger.(¼«í†
+N	java:S106C"9Replace this use of System.out or System.err by a logger.(ü¾ô¾
+N	java:S106D"9Replace this use of System.out or System.err by a logger.(²İ¨¦
+S	java:S106E"9Replace this use of System.out or System.err by a logger.(Š¹üŒıÿÿÿÿ
+M	java:S106F"9Replace this use of System.out or System.err by a logger.(ÃŞ¨
+S	java:S106Z"9Replace this use of System.out or System.err by a logger.(òşßİÿÿÿÿÿ
+t
+java:S2142_"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+N	java:S106]"9Replace this use of System.out or System.err by a logger.(ƒ¦á
+S	java:S106`"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+S	java:S106e"9Replace this use of System.out or System.err by a logger.(–’§½üÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(ÿÒï½ıÿÿÿÿ
+t
+java:S2142~"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+N	java:S106|"9Replace this use of System.out or System.err by a logger.(ƒ¦á
+S	java:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+O	java:S106„"9Replace this use of System.out or System.err by a logger.(¡İÊ”
+u
+java:S2142‰"^Either re-interrupt this method or rethrow the "InterruptedException" that can be caught here.(”ı¾
+O	java:S106‡"9Replace this use of System.out or System.err by a logger.(ƒ¦á
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+~
+java:S1192"cDefine a constant instead of duplicating this literal "] ì€í–‰ì„ ì„ íƒí•˜ì…¨ìŠµë‹ˆë‹¤." 5 times.(ê¥öıÿÿÿÿ
+P
+java:S1141["5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+f	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š»§„
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Š‘¨µúÿÿÿÿ
